@@ -9,7 +9,11 @@ html(lang='en')
     h1 style transfer \ 
       a(href="https://github.com/samuelchristopher") samuelchristopher
     .content
-      .content-source
+      img(src="https://images.unsplash.com/photo-1522431745718-cd31223a468d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5c9c8bfa0765940faa0366ee967ed664&auto=format&fit=crop&w=334&q=80").content-source
       .style-source
       .output
         a(href="").btn download
+    
+    script(src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.12.5", defer)
+    script(src="https://cdn.jsdelivr.net/gh/nicolaspanel/numjs@0.15.1/dist/numjs.min.js", defer)
+    script(src="style-transfer-dist.js", defer)
